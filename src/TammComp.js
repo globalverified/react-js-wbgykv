@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
 
+//here we are using properties of mouse hover from HOC alongwith additional data (isHovered and data)
 export default function ProjectComponent(props) {
   const hoverText = props.isHovered ? 'IN' : 'Out';
   let green = '#11e619';
