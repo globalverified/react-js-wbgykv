@@ -20,7 +20,6 @@ export default function ProjectComponent(props) {
       <h3>TAMM Component using StackBlitz..</h3>
       {console.log('props :', props)}
       {console.log('props-data-name :', props.data[0].name)}
-      {/* <h2 {...props} style={{ backgroundColor: componentTextColor }}> */}
       <h2 {...props} style={{ color: colorCode }} onClick={colorChange}>
         Mouse is Hover {hoverText} to Component.
       </h2>
