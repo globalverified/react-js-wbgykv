@@ -1,6 +1,7 @@
 const express = require('express');
 const session = require('express-session');
 const app = express();
+app.use(express.bodyParser());
 
 const routes = require('./routes');
 app.use(express.json());
